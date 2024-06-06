@@ -1,8 +1,10 @@
 $(document).ready(function(){
-    $('#btn_esconder').click(function(){
-        $('.texto').hide('fast');
+        
+    $("#esconder").click(function(){            
+        $('.texto').hide('slow');
     });
-    $('#btn_exibir').click(function(){
-        $('.texto').show('slow');
+
+    $("#exibir").click(function(){
+        $('.texto').show('fast');        
     });
 });
