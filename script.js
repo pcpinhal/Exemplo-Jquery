@@ -9,11 +9,9 @@ $(document).ready(function(){
     });
 
     $("#direita").click(function(){
-        $('.caixa').animate({right: '1000px'});        
-    });
-    $("#esquerda").click(function(){
         $('.caixa').animate({left: '1000px'});        
     });
-
-
+    $("#esquerda").click(function(){
+        $('.caixa').animate({left: '10px'});        
+    });
 });
